@@ -1,6 +1,6 @@
 # npmtest-utile
 
-#### test coverage for  [utile (v0.3.0)](https://github.com/flatiron/utile)  [![npm package](https://img.shields.io/npm/v/npmtest-utile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-utile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-utile.svg)](https://travis-ci.org/npmtest/node-npmtest-utile)
+#### basic test coverage for  [utile (v0.3.0)](https://github.com/flatiron/utile)  [![npm package](https://img.shields.io/npm/v/npmtest-utile.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-utile) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-utile.svg)](https://travis-ci.org/npmtest/node-npmtest-utile)
 
 #### A drop-in replacement for `util` with some additional advantageous functions
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-utile/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-utile/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-utile/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-utile/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-utile/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-utile/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-utile/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-utile/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-utile/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-utile/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-utile/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-utile/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "vows --spec"
     },
-    "version": "0.3.0"
+    "version": "0.3.0",
+    "bin": {}
 }
 ```
 
